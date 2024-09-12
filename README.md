@@ -4,7 +4,7 @@ Windows Sysinternals Admin Templates (ADM/ADMX): Administrative templates for in
 This project is designed to create Group Policy Administrative Template Files (ADM\ADMX). These files are used in Group Policy to configure Microsoft Windows Sysinternals Utilities.
 
 
-The list of tools for which Group Policy exists
+The list of tools for which Group Policy exists:
 - AccessChk
 - AccessEnum
 - Active Directory Explorer
