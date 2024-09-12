@@ -77,4 +77,5 @@ The list of tools for which Group Policy exists
 version 0.1
 - Contains a license agreement approval policy
 
-![](/ADMX%20Microsoft%20Windows%20Sysinternals.png)
+(![ADMX Microsoft Windows Sysinternals](https://github.com/user-attachments/assets/cb894d9b-8c0c-4874-b068-2ada0e3d13a9)
+
