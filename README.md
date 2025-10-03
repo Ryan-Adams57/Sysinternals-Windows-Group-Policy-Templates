@@ -1,81 +1,41 @@
-# Sysinternals-Windows-Group-Policy-Templates
-Windows Sysinternals Admin Templates (ADM/ADMX): Administrative templates for integrating Sysinternals tools into Group Policy, enabling streamlined management and configuration across Windows systems.
-# Administrative Templates (ADM\ADMX) for Microsoft Windows Sysinternals
-This project is designed to create Group Policy Administrative Template Files (ADM\ADMX). These files are used in Group Policy to configure Microsoft Windows Sysinternals Utilities.
+Sysinternals‑Windows‑Group‑Policy‑Templates — README (short & organized)
 
+Project: Group Policy Administrative Templates (ADM/ADMX) for Microsoft Windows Sysinternals
 
-The list of tools for which Group Policy exists:
-- AccessChk
-- AccessEnum
-- Active Directory Explorer
-- AdRestore
-- Autologon
-- AutoRuns
-- BGInfo
-- BlueScreen
-- CacheSet
-- ClockRes
-- Contig
-- Coreinfo
-- DebugView
-- Desktops
-- Disk2Vhd
-- DiskExt
-- DiskView
-- EFSDump
-- Handle
-- Hex2Dec
-- Insight for Active Directory
-- Junction
-- LdmDump
-- ListDLLs
-- LiveKd
-- LoadOrder
-- LogonSessions
-- NotMyFault
-- NTFSInfo
-- PageDefrag
-- MoveFile
-- PendMoves
-- Portmon
-- ProcDump
-- Process Explorer
-- Process Monitor
-- PsExec
-- PsFile
-- PsGetSid
-- PsInfo
-- PsKill
-- PsList
-- PsLoggedon
-- PsLoglist
-- PsPasswd
-- PsPing
-- PsService
-- PsShutdown
-- PsSuspend
-- RamMap
-- RegDelNull
-- Reghide
-- Registry Usage (RU)
-- Regjump
-- RootkitRevealer
-- SDelete
-- ShareEnum
-- ShellRunas
-- Sigcheck
-- Streams
-- Strings
-- Sync
-- TCPView
-- VMMap
-- VolumeId
-- Whois
-- Winobj
-- ZoomIt
+Purpose: Provide ADMX/ADM files to centrally configure and manage Sysinternals utilities via Group Policy.
 
-version 0.1
-- Contains a license agreement approval policy
+Key points
+
+What it does: Supplies Administrative Templates to control Sysinternals tools across Windows environments.
+
+Scope: Templates for 68 Sysinternals tools (partial list below).
+
+Version: 0.1 — includes a license-agreement approval policy.
+
+Visual: Screenshot/asset included in repo.
+
+Partial list of tools (examples)
+
+AccessChk · AccessEnum · AutoRuns · BGInfo · Coreinfo · DebugView · Desktops · Disk2Vhd · Handle · Insight for Active Directory · Process Explorer · Process Monitor · PsExec · PsService · RamMap · RootkitRevealer · SDelete · Sigcheck · TCPView · VMMap · Winobj · ZoomIt
+
+(full list available in repository)
+
+Usage
+
+Import the ADMX/ADML files into your Group Policy Central Store or local policy editor.
+
+Configure per-machine or per-user settings via Group Policy Management.
+
+Recommendations / Next steps
+
+Add per-tool configuration examples and default values.
+
+Expand tests across Windows versions and document supported OS builds.
+
+Provide automated CI to validate ADMX syntax and sample GPO exports.
+
+Contributing
+
+Open a PR with: ADMX/ADML files, a short changelog, and any test results for supported Windows builds.
 
 ![ADMX Microsoft Windows Sysinternals](https://github.com/user-attachments/assets/cb894d9b-8c0c-4874-b068-2ada0e3d13a9)
-
