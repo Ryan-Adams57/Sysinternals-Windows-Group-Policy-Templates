@@ -1,45 +1,61 @@
 Sysinternals Windows Group Policy Templates
 
-Group Policy Administrative Templates (ADM/ADMX) for Microsoft Windows Sysinternals
+Administrative Templates (ADMX/ADM) for managing Microsoft Windows Sysinternals tools via Group Policy.
 
-Purpose:
+These templates allow administrators to centrally configure and control Sysinternals utilities across Windows environments using standard Group Policy mechanisms.
 
-Provide ADMX/ADM files to centrally configure and manage Sysinternals utilities through Group Policy.
+Purpose
 
-Key Points
+Provide ADMX/ADM files that enable centralized configuration and management of Sysinternals tools through Group Policy.
 
-Functionality: Supplies Administrative Templates to control Sysinternals tools across Windows environments.
+Key Features
 
-Scope: Templates cover 68 Sysinternals tools (partial list below).
+Centralized Management
 
-Version: 0.1 — includes a license-agreement approval policy.
+Configure Sysinternals utilities per-machine or per-user using Group Policy.
 
-Visual: Screenshot or asset included in the repository.
+Broad Coverage
 
-Partial List of Tools (examples)
+Templates currently cover 68 Sysinternals tools (see partial list below).
+
+Version
+
+0.1 — includes an initial license-agreement approval policy.
+
+Visual Assets
+
+Screenshots or visual references are included in the repository.
+
+Included Tools (Partial List)
 
 AccessChk · AccessEnum · AutoRuns · BGInfo · Coreinfo · DebugView · Desktops · Disk2Vhd · Handle · Insight for Active Directory · Process Explorer · Process Monitor · PsExec · PsService · RamMap · RootkitRevealer · SDelete · Sigcheck · TCPView · VMMap · Winobj · ZoomIt
 
-Full list available in the repository.
+The full list of supported tools is available in the repository.
 
 Usage
 
-Import the ADMX/ADML files into your Group Policy Central Store or local policy editor.
+Import the ADMX and ADML files into your Group Policy Central Store or local policy editor.
 
-Configure per-machine or per-user settings using Group Policy Management.
+Configure Sysinternals settings using Group Policy Management.
 
-Recommendations/Next Steps
+Apply policies at the computer or user level as required.
 
-Add per-tool configuration examples and default values.
+Recommendations / Next Steps
 
-Expand testing across different Windows versions and document supported OS builds.
+Add per-tool configuration examples and recommended default values
 
-Implement automated CI to validate ADMX syntax and sample GPO exports.
+Expand testing across multiple Windows versions and document supported OS builds
+
+Implement automated CI to validate ADMX syntax and sample GPO exports
 
 Contributing
 
+Contributions are welcome.
+
 To contribute:
 
-Open a pull request including ADMX/ADML files.
+Open a pull request with the updated ADMX/ADML files
 
-Include a short changelog and any test results for supported Windows builds.
+Include a short changelog
+
+Provide any test results for supported Windows builds
