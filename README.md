@@ -50,9 +50,7 @@ Implement automated CI to validate ADMX syntax and sample GPO exports
 
 Contributing
 
-Contributions are welcome.
-
-To contribute:
+Contributions are welcome. To contribute:
 
 Open a pull request with the updated ADMX/ADML files
 
