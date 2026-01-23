@@ -34,11 +34,11 @@ The full list of supported tools is available in the repository.
 
 Usage
 
-Import the ADMX and ADML files into your Group Policy Central Store or local policy editor.
+Import the ADMX and ADML files into your Group Policy Central Store or local policy editor
 
-Configure Sysinternals settings using Group Policy Management.
+Configure Sysinternals settings using Group Policy Management
 
-Apply policies at the computer or user level as required.
+Apply policies at the computer or user level as required
 
 Recommendations / Next Steps
 
