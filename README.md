@@ -1,16 +1,14 @@
 # Sysinternals Windows Group Policy Templates
 
----
-
 Administrative Templates (ADMX/ADM) for managing Microsoft Windows Sysinternals tools via Group Policy.
 
 These templates allow administrators to centrally configure and control Sysinternals utilities across Windows environments using standard Group Policy mechanisms.
 
-Purpose
+# Purpose
 
 Provide ADMX/ADM files that enable centralized configuration and management of Sysinternals tools through Group Policy.
 
-Key Features
+# Key Features
 
 Centralized Management
 
@@ -20,7 +18,7 @@ Broad Coverage
 
 Templates currently cover 68 Sysinternals tools (see partial list below).
 
-Version
+# Version
 
 0.1 — includes an initial license-agreement approval policy.
 
@@ -34,7 +32,7 @@ AccessChk · AccessEnum · AutoRuns · BGInfo · Coreinfo · DebugView · Deskto
 
 The full list of supported tools is available in the repository.
 
-Usage
+# Usage
 
 Import the ADMX and ADML files into your Group Policy Central Store or local policy editor
 
@@ -42,7 +40,7 @@ Configure Sysinternals settings using Group Policy Management
 
 Apply policies at the computer or user level as required
 
-Recommendations / Next Steps
+# Recommendations / Next Steps
 
 Add per-tool configuration examples and recommended default values
 
@@ -50,7 +48,7 @@ Expand testing across multiple Windows versions and document supported OS builds
 
 Implement automated CI to validate ADMX syntax and sample GPO exports
 
-Contributing
+# Contributing
 
 Contributions are welcome. To contribute:
 
