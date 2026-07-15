@@ -20,7 +20,7 @@ Templates currently cover 68 Sysinternals tools (see partial list below).
 
 # Version
 
-0.1 — includes an initial license-agreement approval policy.
+0.1 - includes an initial license-agreement approval policy.
 
 Visual Assets
 
